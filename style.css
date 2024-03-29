@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0px 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  padding: 0rem 1rem;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.navigation {
+  display: inline-block;
+  width: 38vw;
+  margin: 1rem 20vw;
+  /* border: 1px solid black; */
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0px 2rem;
+  list-style: none;
+  color: rgba(0, 0, 0, 0.59);
+}
+
+.username {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(39, 226, 245, 0.25);
+  color: #05aaeb;
+  padding: 10px 6px;
+  border-radius: 0.5rem;
+}
+
+.hero{
+  width:70vw;
+  padding: 4rem 6rem;
+}
+.right{
+  display:inline;
+  float:right;
+  width: 30vw;
+}
+.left{
+  display:inline;
+  float:left;
+  clear:both;
+  width: 30vw;
+}
+.left h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.69);
+  line-height: 3.3rem;
+}
+.left h1>span{
+  color: #05aaeb;
+}
+
+.left p{
+  color: rgba(0, 0, 0, 0.49);
+}
+
+.btn{
+  background-color: #05aaeb;
+  padding:1rem 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  border:none;
+}
+
+.right > img{
+  float:right;
+  width: 70%;
+  overflow:auto;
+
+}
+
